@@ -1,0 +1,16 @@
+.body-container{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color:#58585A;
+    overflow: hidden;
+}
+
+.arrow-down {
+    margin-left: -30vw;
+    width: 100%; 
+    height: 100%; 
+    border-left: 80vw solid transparent;
+    border-right: 80vw solid transparent;
+    border-top: 400px solid grey;
+    background-image: url(/assets/images/home-banner.JPEG);
+  }

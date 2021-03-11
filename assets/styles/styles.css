@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+footer, header, nav, section, main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+.body-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #58585A;
+  overflow: hidden; }
+
+.arrow-down {
+  margin-left: -30vw;
+  width: 100%;
+  height: 100%;
+  border-left: 80vw solid transparent;
+  border-right: 80vw solid transparent;
+  border-top: 400px solid grey;
+  background-image: url(/assets/images/home-banner.JPEG); }
+
+header {
+  width: 100vw;
+  padding: 25px 0;
+  background-color: #DF8026; }
+  header .width-inner {
+    width: 80%;
+    margin: auto; }
+  header .social-icons i {
+    color: white;
+    font-size: 50px;
+    margin-right: 25px; }
+  header .contact-number {
+    text-align: right;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    header .contact-number a {
+      width: 100%;
+      color: white;
+      text-align: right;
+      font-size: 25px;
+      font-family: 'Russo One', sans-serif; }
+    header .contact-number a:hover {
+      text-decoration: none; }

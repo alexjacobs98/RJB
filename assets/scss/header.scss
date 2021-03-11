@@ -1,0 +1,42 @@
+header{
+    width: 100vw;
+    padding: 25px 0;
+    background-color:#DF8026 ;
+
+    .width-inner{
+        width: 80%;
+        margin: auto;
+    }
+
+    .social-icons{
+
+        i{
+            color: white;
+            font-size: 50px;
+            margin-right: 25px;
+        }
+
+    }
+
+    .contact-number{
+        text-align: right;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        a{
+            width: 100%;
+            color: white;
+            text-align: right;
+            font-size: 25px;
+            font-family: 'Russo One', sans-serif;
+
+           
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
